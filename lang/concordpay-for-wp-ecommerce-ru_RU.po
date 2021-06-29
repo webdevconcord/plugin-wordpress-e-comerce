@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP eCommerce - ConcordPay Payment Gateway\n"
+"POT-Creation-Date: 2021-04-21 16:22+0300\n"
+"PO-Revision-Date: 2021-04-21 16:23+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: concordpay-for-wp-ecommerce.php\n"
+"X-Poedit-SearchPath-1: concordpay.cls.php\n"
+
+#: concordpay-for-wp-ecommerce.php:40
+#, php-format
+msgid ""
+"The minimum PHP version required for ConcordPay is %1$s. You are running "
+"%2$s."
+msgstr ""
+"Минимальная версия PHP, необходимая для ConcordPay, составляет %1$s. Вы "
+"используете %2$s."
+
+#: concordpay-for-wp-ecommerce.php:45
+#, php-format
+msgid ""
+"The minimum WordPress version required for ConcordPay is %1$s. You are "
+"running %2$s."
+msgstr ""
+"Минимальная версия WordPress, необходимая для ConcordPay, составляет %1$s. "
+"Вы используете %2$s."
+
+#: concordpay-for-wp-ecommerce.php:50
+msgid "WP eCommerce needs to be activated."
+msgstr "WP eCommerce необходимо активировать."
+
+#: concordpay-for-wp-ecommerce.php:57
+#, php-format
+msgid ""
+"The minimum WP eCommerce version required for ConcordPay is %1$s. You are "
+"running %2$s."
+msgstr ""
+"Минимальная версия WP eCommerce, необходимая для ConcordPay, составляет "
+"%1$s. Вы используете %2$s."
+
+#: concordpay-for-wp-ecommerce.php:112
+msgid "ConcordPay for WP eCommerce"
+msgstr "ConcordPay для WP eCommerce"
+
+#: concordpay-for-wp-ecommerce.php:113
+msgid "ConcordPay Payment Gateway for WP eCommerce."
+msgstr "Платежный шлюз ConcordPay для WP eCommerce."
+
+#: concordpay-for-wp-ecommerce.php:123
+msgid "Settings"
+msgstr "Настройки"
+
+#: concordpay-for-wp-ecommerce.php:191
+msgid "Payment by card on the site"
+msgstr "Оплата картой на сайте"
+
+#: concordpay-for-wp-ecommerce.php:329
+msgid "Payment page language"
+msgstr "Язык страницы оплаты"
+
+#: concordpay-for-wp-ecommerce.php:334
+msgid "The language of the ConcordPay payment page"
+msgstr "Язык страницы оплаты ConcordPay"
+
+#: concordpay-for-wp-ecommerce.php:355
+msgid "Merchant Account"
+msgstr "Идентификатор продавца"
+
+#: concordpay-for-wp-ecommerce.php:356 concordpay-for-wp-ecommerce.php:362
+msgid "Given to Merchant by ConcordPay"
+msgstr "Выдаётся продавцу системой ConcordPay"
+
+#: concordpay-for-wp-ecommerce.php:361
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+#: concordpay-for-wp-ecommerce.php:367
+msgid "System URL"
+msgstr "Системный URL"
+
+#: concordpay-for-wp-ecommerce.php:368 concordpay-for-wp-ecommerce.php:374
+#: concordpay-for-wp-ecommerce.php:380 concordpay-for-wp-ecommerce.php:386
+msgid "Default URL"
+msgstr "URL по умолчанию"
+
+#: concordpay-for-wp-ecommerce.php:373
+msgid "Successful payment redirect URL"
+msgstr "URL перенаправления при успешном платеже"
+
+#: concordpay-for-wp-ecommerce.php:379
+msgid "Redirect URL failed to pay"
+msgstr "URL перенаправления при неудачном платеже"
+
+#: concordpay-for-wp-ecommerce.php:385
+msgid "Redirect URL in case of failure to make payment"
+msgstr "URL перенаправления при отклонении платежа"
+
+#: concordpay-for-wp-ecommerce.php:391
+msgid "URL of the result information"
+msgstr "URL для информации об оплате"
+
+#: concordpay-for-wp-ecommerce.php:392
+msgid ""
+"The URL to which will receive information about the result of the payment"
+msgstr "URL, по которому будет приходить информация о результате платежа"
+
+#: concordpay.cls.php:246
+msgid ""
+"An error has occurred during payment. Please contact us to ensure your order "
+"has submitted."
+msgstr ""
+"Произошла ошибка при оплате. Свяжитесь с нами, чтобы убедиться, что ваш "
+"заказ подтверждён."
+
+#: concordpay.cls.php:250
+msgid "An error has occurred during payment. Merchant data is incorrect."
+msgstr "Произошла ошибка при оплате. Данные продавца неверны."
+
+#: concordpay.cls.php:256
+msgid "An error has occurred during payment. Signature is not valid."
+msgstr "Произошла ошибка при оплате. Подпись недействительна."
+
+#~ msgid "ConcordPay - transaction status:"
+#~ msgstr "ConcordPay - статус транзакции:"
+
+#~ msgid "The text that people see when making a purchase."
+#~ msgstr "Текст, который люди увидят при покупке."
+
+#~ msgid "Enable/Disable"
+#~ msgstr "Включить/Выключить"
+
+#~ msgid "Show in the Payment List as a payment option"
+#~ msgstr "Показать в списке платежей как вариант оплаты"
+
+#~ msgid "ConcordPay Widget"
+#~ msgstr "Виджет ConcordPay"
+
+#~ msgid "Enable ConcordPay Widget"
+#~ msgstr "Включить виджет ConcordPay"
+
+#~ msgid "Use a ConcordPay Widget instead separate checkout page"
+#~ msgstr ""
+#~ "Использовать виджет ConcordPay вместо отдельной страницы оформления заказа"
+
+#~ msgid "Show Logo"
+#~ msgstr "Отображать логотип"
+
+#~ msgid "Show the ConcordPay logo in the Payment Method section for the user"
+#~ msgstr ""
+#~ "Показывать логотип ConcordPay в разделе \"Способ оплаты\" для пользователя"
+
+#~ msgid "Tick to show ConcordPay logo"
+#~ msgstr "Отметьте, чтобы показывать логотип ConcordPay"
+
+#~ msgid "Title in the Payment List"
+#~ msgstr "Наименование в списке способов оплаты"
+
+#~ msgid "Title in the list of available payment methods"
+#~ msgstr "Наименование в списке доступных способов оплаты"
+
+#~ msgid "Payment completed order status"
+#~ msgstr "Статус заказа успешного платежа"
+
+#~ msgid "The default order status after successful payment."
+#~ msgstr "Статус заказа по умолчанию после успешного платежа."
+
+#~ msgid "Payment declined order status"
+#~ msgstr "Статус заказа отклонённого платежа"
+
+#~ msgid "Order status when payment was declined."
+#~ msgstr "Статус заказа при отклонении платежа."
+
+#~ msgid "Payment refunded order status"
+#~ msgstr "Статус заказа возвращённого платежа"
+
+#~ msgid "Order status when payment was refunded."
+#~ msgstr "Статус заказа при возврате платежа."
+
+#~ msgid "Default url - https://pay.concord.ua/api/"
+#~ msgstr "URL по умолчанию - https://pay.concord.ua/api/"
+
+#~ msgid "Standard Page"
+#~ msgstr "Стандартная страница"
+
+#~ msgid "ConcordPay"
+#~ msgstr "ConcordPay"
+
+#~ msgid ""
+#~ "Thank you for your order, you will now be redirected to the ConcordPay "
+#~ "payment page"
+#~ msgstr ""
+#~ "Спасибо за ваш заказ, сейчас вы будете перенаправлены на страницу оплаты "
+#~ "ConcordPay"
+
+#~ msgid ""
+#~ "Thank you for shopping with us. Your account has been charged and your "
+#~ "transaction is successful."
+#~ msgstr ""
+#~ "Спасибо за покупку. С вашего счета была снята оплата, и ваша транзакция "
+#~ "прошла успешно."
+
+#~ msgid "ConcordPay - Payment Visa, Mastercard, GooglePay, ApplePay"
+#~ msgstr "ConcordPay - Оплата Visa, Mastercard, GooglePay, ApplePay"
+
+#~ msgid "Payment Visa, Mastercard, GooglePay, ApplePay"
+#~ msgstr "Оплата Visa, Mastercard, GooglePay, ApplePay"
+
+#~ msgid "WooCommerce - ConcordPay payment gateway"
+#~ msgstr "WooCommerce - платёжный шлюз ConcordPay"
+
+#~ msgid "Title"
+#~ msgstr "Наименование"
+
+#~ msgid "Select Page"
+#~ msgstr "Выберите страницу"
+
+#~ msgid "or select"
+#~ msgstr "или укажите"
+
+#~ msgid "Concord.ua"
+#~ msgstr "ConcordPay"
+
+#~ msgid ""
+#~ "Спасибо за ваш заказ, сейчас вы будете перенаправлены на страницу оплаты "
+#~ "ConcordPay."
+#~ msgstr ""
+#~ "Спасибо за ваш заказ, сейчас вы будете перенаправлены на страницу оплаты "
+#~ "ConcordPay."
+
+#~ msgid "или укажите"
+#~ msgstr "или укажите"
