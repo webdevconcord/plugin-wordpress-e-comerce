@@ -3,7 +3,7 @@
 Contributors: Mustpay
 Tags: merchant, online payment, payment gateway, acquiring, ecommerce, concordpay, concord, payment, commerce, applepay, visa, googlepay
 Requires at least: 3.5
-Tested up to: 5.7.1
+Tested up to: 5.8
 Requires PHP: 5.4
 Stable tag: 1.0
 License: GPLv2 or later
@@ -108,3 +108,5 @@ Done, now you can accept payments from the customers!
 
 = 1.0 =
 Plugin is published.
+= 1.0.1 =
+Updated request params.

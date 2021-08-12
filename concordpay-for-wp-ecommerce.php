@@ -3,7 +3,7 @@
  * Plugin Name: ConcordPay for WP eCommerce
  * Plugin URI: https://pay.concord.ua
  * Description: ConcordPay Payment Gateway for WP eCommerce.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: ConcordPay
  * Domain Path: /lang
  * Text Domain: concordpay-for-wp-ecommerce
@@ -190,6 +190,12 @@ function gateway_concordpay( $separator, $sessionid ) {
 
 	$concordpay_args['description'] = esc_html__( 'Payment by card on the site', 'concordpay-for-wp-ecommerce' ) .
 		' ' . get_bloginfo() . ', ' . $client_fullname . ', ' . $client_phone;
+
+	// Statistics.
+	$concordpay_args['client_first_name'] = $checkout_data->get( 'billingfirstname' ) ?? '';
+	$concordpay_args['client_last_name']  = $checkout_data->get( 'billinglastname' ) ?? '';
+	$concordpay_args['phone']             = $client_phone;
+	$concordpay_args['email']             = $checkout_data->get( 'billingemail' ) ?? '';
 
 	$img = WPSC_URL . '/images/indicator.gif';
 
