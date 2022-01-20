@@ -1,16 +1,18 @@
 <?php
 /**
- * Plugin Name: ConcordPay for WP eCommerce
- * Plugin URI: https://pay.concord.ua
- * Description: ConcordPay Payment Gateway for WP eCommerce.
- * Version: 1.0.1
- * Author: ConcordPay
- * Domain Path: /lang
- * Text Domain: concordpay-for-wp-ecommerce
- * License: GPLv2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * WP eCommerce requires at least: 3.0.0
- * WP eCommerce tested up to: 3.15.1
+ * Plugin Name:   ConcordPay for WP eCommerce
+ * Plugin URI:    https://pay.concord.ua
+ * Description:   ConcordPay Payment Gateway for WP eCommerce.
+ * Version:       1.0.2
+ * Author:        ConcordPay
+ * Author URI:    https://mustpay.tech
+ * Domain Path:   /lang
+ * Text Domain:   concordpay-for-wp-ecommerce
+ * License:       GPLv2 or later
+ * License URI:   http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * WP eCommerce requires at least:  3.0.0
+ * WP eCommerce tested up to:       3.15.1
  *
  * @package wp-e-commerce
  */
@@ -18,6 +20,10 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
+require_once __DIR__ . '/../wp-e-commerce/wpsc-includes/merchant.class.php';
+require_once __DIR__ . '/concordpay.cls.php';
+define( 'CONCORDPAY_IMGDIR', WP_PLUGIN_URL . '/' . plugin_basename( __DIR__ ) . '/assets/img/' );
 
 // Minimum PHP, WordPress and WP eCommerce versions needs for ConcordPay plugin.
 const CONCORDPAY_PHP_VERSION          = 50400;
@@ -68,10 +74,10 @@ function concordpay_check_environment() {
 		}
 	}
 
-	$concorpday_plugin_file = plugin_basename( __FILE__ );
-	if ( is_plugin_active( $concorpday_plugin_file ) ) {
+	$concordpay_plugin_file = plugin_basename( __FILE__ );
+	if ( is_plugin_active( $concordpay_plugin_file ) ) {
 		// Add ConcordPay settings link on Plugins page.
-		add_filter( "plugin_action_links_$concorpday_plugin_file", 'concordpay_plugin_settings_link', 10, 1 );
+		add_filter( "plugin_action_links_$concordpay_plugin_file", 'concordpay_plugin_settings_link', 10, 1 );
 	}
 
 	return false;
@@ -86,9 +92,6 @@ function concordpay_error_notice( $message ) {
 	?><div class="error is-dismissible"><p><?php echo $message; ?></p></div>
 	<?php
 }
-
-require_once __DIR__ . '/concordpay.cls.php';
-define( 'CONCORDPAY_IMGDIR', WP_PLUGIN_URL . '/' . plugin_basename( __DIR__ ) . '/assets/img/' );
 
 /*
  * This is the gateway variable $nzshpcrt_gateways, it is used for displaying gateway information on the wp-admin pages and also

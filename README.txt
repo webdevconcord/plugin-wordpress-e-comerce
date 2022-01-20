@@ -5,7 +5,7 @@ Tags: merchant, online payment, payment gateway, acquiring, ecommerce, concordpa
 Requires at least: 3.5
 Tested up to: 5.8
 Requires PHP: 5.4
-Stable tag: 1.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,7 +45,7 @@ Business opportunities with the ConcordPay service:
 == Supported payment methods ==
 
 = Bank cards =
-* Visa, MasterCard.
+* Visa, Mastercard.
 
 = Alternative payment methods =
 * Google Pay, Apple Pay.
@@ -69,12 +69,12 @@ ConcordPay is fully optimized for use on smartphones, tablets, laptops, desktops
 
 == Tariffs ==
 
-[See current tariffs on the ConcordPay website](https://pay.concord.ua)
+[See current tariffs on the ConcordPay website](https://concordpay.concord.ua)
 
 
 == FAQ ==
 
-Some answers you can find here [FAQ](https://pay.concord.ua)
+Some answers you can find here [FAQ](https://concordpay.concord.ua)
 
 
 == Installation instructions for the plugin ==
@@ -89,7 +89,7 @@ Go to the WordPress control panel, find the ConcordPay payment module in the “
 
 = 3. Conclusion of an agreement with a bank =
 
-1. Register on [the service portal](https://pay.concord.ua).
+1. Register on [the service portal](https://concordpay.concord.ua).
 2. Sign a contract for Internet acquiring.
 
 = 4. Settings =
@@ -110,3 +110,5 @@ Done, now you can accept payments from the customers!
 Plugin is published.
 = 1.0.1 =
 Updated request params.
+= 1.0.2 =
+Fixed found errors of connecting the WP eCommerce plugin.
