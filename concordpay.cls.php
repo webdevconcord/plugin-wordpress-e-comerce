@@ -47,7 +47,7 @@ class ConcordPay extends wpsc_merchant {
 	const ORDER_APPROVED             = 'Approved';
 	const ORDER_DECLINED             = 'Declined';
 	const RESPONSE_TYPE_REVERSE      = 'reverse';
-	const CONCORDPAY_ALLOWED_LOCALES = array( 'en', 'ru', 'uk' );
+	const CONCORDPAY_ALLOWED_LOCALES = array( 'en', 'ru', 'ua' );
 	const CURRENCY_HRYVNA            = 'UAH';
 
 	/**
